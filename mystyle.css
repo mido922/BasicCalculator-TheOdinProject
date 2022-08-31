@@ -1,0 +1,37 @@
+#wholeThing{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculatorCase {
+width: 400px;
+height: 600px;
+background-color: grey;
+border-color: black;
+border-width: 3px;
+border-style: double;
+border-radius: 3px;
+}
+
+#calculatorTop {
+    display: flex;
+    height: 20%;
+    align-items: stretch;
+    
+}
+#calculatorBottom {
+    height: 80%;
+}
+#calculatorScreen {
+    display:flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+.placeHolder {
+    visibility: hidden;
+}
+.calculatorButton{
+    width: 19%;
+}

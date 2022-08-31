@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="Javascript.js" defer=""></script>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body onload="bootSequence()">
+    <div id="wholeThing" display="flex">
+        <div id="calculatorCase" display="flex">
+            <div id="calculatorTop" display="flex">
+                <textarea id="calculatorScreen" display="flex">Placeholder Text</textarea>
+                <button id="clearButton" class="calculatorButton" onclick="bootSequence()">Clear</button>
+            </div>
+            <div id="calculatorBottom" display="flex">
+
+
+                <button id="sevenButton" class="calculatorButton" onclick="pressSeven()">7</button>
+                <button id="eightButton" class="calculatorButton" onclick="pressEight()">8</button>
+                <button id="nineButton" class="calculatorButton" onclick="pressNine()">9</button>
+                <button id="plusButton" class="calculatorButton" onclick="pressAdd()">+</button>
+                <button id="minusButton" class="calculatorButton" onclick="pressSubtract()">-</button>
+                <button id="fourButton" class="calculatorButton" onclick="pressFour()">4</button>
+                <button id="fiveButton" class="calculatorButton" onclick="pressFive()">5</button>
+                <button id="sixButton" class="calculatorButton" onclick="pressSix()">6</button>
+                <button id="multiplyButton" class="calculatorButton" onclick="pressMultiply()">*</button>
+                <button id="divideButton" class="calculatorButton" onclick="pressDivide()">/</button>
+                <button id="oneButton" class="calculatorButton" onclick="pressOne()">1</button>
+                <button id="twoButton" class="calculatorButton" onclick="pressTwo()">2</button>
+                <button id="threeButton" class="calculatorButton" onclick="pressThree()">3</button>
+
+
+                <button id="placeholderButton" class="calculatorButton">?</button>
+                <button id="equalButton" class="calculatorButton" onclick="operate()">=</button>
+                <button id="placeholderButton" class="calculatorButton">?</button>
+                <button id="zeroButton" class="calculatorButton" onclick="pressZero()">0</button>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
